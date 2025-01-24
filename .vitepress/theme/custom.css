@@ -1,0 +1,6 @@
+:root {
+    --vp-c-brand-1: #949cdf;
+
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: var(--vp-c-brand-1);
+}

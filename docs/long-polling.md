@@ -1,7 +1,7 @@
 # Getting started with Long Polling
 Long-polling is the simplest way to receive updates from Telegram. With this approach, your bot sends a request to the Telegram API and waits for a response. If there are no updates available, the request will hang until a new update is received or a timeout occurs.
 
-See the [Choosing the right update system](../choosing-update-system) page for more information.
+See the [Choosing the right update system](./choosing-update-system) page for more information.
 
 ## Overview
 In order to create a bot using long-polling, you need to register the bot using the `registerLongPolling` method of the `BotManager` class.

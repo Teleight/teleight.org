@@ -1,7 +1,7 @@
 # Getting started with Webhooks
 Webhooks are a more advanced way to receive updates from Telegram. In this approach, Telegram sends updates to a URL that you specify, and your bot can process them in real-time.
 
-See the [Choosing the right update system](../choosing-update-system) page for more information.
+See the [Choosing the right update system](./choosing-update-system) page for more information.
 
 ::: warning
 Setting up webhooks requires more configuration and infrastructure, such as a server with a public IP address and SSL certificate.
@@ -16,7 +16,7 @@ In order to create a bot using webhooks, you need to register the bot using the 
  1. [Using the internal web server](#using-the-internal-web-server) (recommended for most use cases)
  2. [Creating a custom web server in your application](#creating-a-custom-web-server) (advanced)
 
-In order to set a webhook either way, you must provide the configuration settings via the `WebhookBotSettings` record. This is just a wrapper to the [setWebhook](../api-examples.html#post-/setWebhook) method of the Telegram Bot API.
+In order to set a webhook either way, you must provide the configuration settings via the `WebhookBotSettings` record. This is just a wrapper to the [setWebhook](./playground#post-/setWebhook) method of the Telegram Bot API.
 
 ## Using the internal web server
 TeleightBots provides an internal web server that you can use to receive updates from Telegram. This is the easiest way to set up webhooks, as you don't need to create a custom web server in your application.

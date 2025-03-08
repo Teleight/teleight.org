@@ -14,7 +14,7 @@ hero:
       link: /playground
     - theme: alt
       text: GitHub
-      link: https://github.com/TechCavern/TeleightBots
+      link: https://github.com/Teleight/TeleightBots
 
 features:
   - title: Lightweight

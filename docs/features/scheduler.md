@@ -12,4 +12,4 @@ bot.getScheduler().buildTask(() -> {
 
 It will return a `Task` class that you can use for stuff like closing the scheduled task.
 
-See the [javadoc](https://teleight.github.io/TeleightBots/org/teleight/teleightbots/scheduler/Task.html) for more information.
+See the [javadoc](https://javadoc.teleight.org/org/teleight/teleightbots/scheduler/Task.html) for more information.

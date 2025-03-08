@@ -22,7 +22,7 @@ That's it! You have successfully registered your bot.
 You can customize the long-polling behavior by passing additional parameters to the `registerLongPolling` method as a `LongPollingSettings` object.
 
 You can use the `LongPollingSettings.ofBuilder()` method to create a new `LongPollingSettings` object with the desired settings.
-You can customize settings like the endpoint URL, updates limit, updates timeout, and more. Check out the [Javadoc](https://teleight.dev/javadoc/dev/teleight/teleightbots/LongPollingSettings.html) for more information.
+You can customize settings like the endpoint URL, updates limit, updates timeout, and more. Check out the [Javadoc](https://javadoc.teleight.org/org/teleight/teleightbots/bot/settings/LongPollingBotSettings.java) for more information.
 
 ```java
 final String botToken = "your_bot_token_here"; // <-- The bot token from @BotFather

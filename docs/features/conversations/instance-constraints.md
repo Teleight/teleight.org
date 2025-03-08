@@ -22,7 +22,7 @@ Conversation testConversation = Conversation.ofBuilder("test", new TestConversat
 bot.getConversationManager().registerConversation(testConversation);
 ```
 
-See the [Javadoc](https://somejavadoc) for more information on the available properties.
+See the [Javadoc](https://javadoc.teleight.org/org/teleight/teleightbots/conversation/ConversationInstanceConstraints.java) for more information on the available properties.
 
 ## Handling Instance Constraints
 When a user tries to start a conversation that has exceeded its maximum number of instances, the `startConversation` method will return a `JoinResult` object with the `ConversationManager.JoinResult.InstanceConstraintReached` type.
